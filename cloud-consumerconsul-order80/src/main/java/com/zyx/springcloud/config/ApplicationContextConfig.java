@@ -10,6 +10,9 @@ import org.springframework.web.client.RestTemplate;
  * Date:  2020/6/28 22:54
  */
 @Configuration
+/**
+ * 负载均衡算法：轮询，最小连接数，权重值，随机。
+ */
 public class ApplicationContextConfig {
 
     @Bean
