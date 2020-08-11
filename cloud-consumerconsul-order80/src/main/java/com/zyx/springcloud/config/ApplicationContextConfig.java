@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
  */
 @Configuration
 /**
- * 负载均衡算法：轮询，最小连接数，权重值，随机。
+ * 负载均衡算法：轮询，最小连接数，权重值，随机，雪花算法等。
  */
 public class ApplicationContextConfig {
 
